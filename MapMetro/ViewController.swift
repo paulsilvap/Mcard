@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let mapView = GMSMapView.mapWithFrame(.zero, camera: camera)
         self.view = mapView
         
-        //marker
+        // marker
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2DMake(0.419193, -78.189943)
         marker.title = "Innopolis"
@@ -30,6 +30,22 @@ class ViewController: UIViewController {
         calle_guzman.snippet = "Calle en la ciudad de Urcuquí"
         calle_guzman.icon = UIImage(named: "boat@2x.png")
         calle_guzman.map = mapView
+        
+        // disable indoor view
+        mapView.indoorEnabled = false
+        
+        // enable accessibility
+        mapView.accessibilityElementsHidden = false
+        
+        // enable My Location and Compass Button
+        mapView.myLocationEnabled = true
+        
+        // The myLocation attribute of the mapView may be null
+        if let mylocation = mapView.myLocation {
+            print("User's location: \(mylocation)")
+        } else {
+            print("User's location is unknown")
+        }
     }
     
     override func viewDidLoad() {
