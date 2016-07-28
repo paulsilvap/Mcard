@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2082AEEA0755D6B8C78F5EE8 /* Pods_MapMetroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B7EA07DF5E234002BDBFC5 /* Pods_MapMetroTests.framework */; };
+		2CBC410D4632C4CC904E93CF /* Pods_MapMetroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4666C6C365DF4A80F0E58BBE /* Pods_MapMetroUITests.framework */; };
 		81B9E6F31D4AAB8D00567D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B9E6F21D4AAB8D00567D1C /* AppDelegate.swift */; };
 		81B9E6F51D4AAB8D00567D1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B9E6F41D4AAB8D00567D1C /* ViewController.swift */; };
 		81B9E6F81D4AAB8D00567D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E6F61D4AAB8D00567D1C /* Main.storyboard */; };
@@ -14,6 +16,21 @@
 		81B9E6FD1D4AAB8D00567D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E6FB1D4AAB8D00567D1C /* LaunchScreen.storyboard */; };
 		81B9E7081D4AAB8D00567D1C /* MapMetroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B9E7071D4AAB8D00567D1C /* MapMetroTests.swift */; };
 		81B9E7131D4AAB8D00567D1C /* MapMetroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B9E7121D4AAB8D00567D1C /* MapMetroUITests.swift */; };
+		81B9E72F1D4AB0FF00567D1C /* aeroplane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7211D4AB0FF00567D1C /* aeroplane@2x.png */; };
+		81B9E7301D4AB0FF00567D1C /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7221D4AB0FF00567D1C /* arrow@2x.png */; };
+		81B9E7311D4AB0FF00567D1C /* australia-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7231D4AB0FF00567D1C /* australia-large@2x.png */; };
+		81B9E7321D4AB0FF00567D1C /* boat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7241D4AB0FF00567D1C /* boat@2x.png */; };
+		81B9E7331D4AB0FF00567D1C /* popup_santa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7251D4AB0FF00567D1C /* popup_santa@2x.png */; };
+		81B9E7341D4AB0FF00567D1C /* sad_cloud_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7261D4AB0FF00567D1C /* sad_cloud_dark@2x.png */; };
+		81B9E7351D4AB0FF00567D1C /* step1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7271D4AB0FF00567D1C /* step1@2x.png */; };
+		81B9E7361D4AB0FF00567D1C /* step2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7281D4AB0FF00567D1C /* step2@2x.png */; };
+		81B9E7371D4AB0FF00567D1C /* step3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E7291D4AB0FF00567D1C /* step3@2x.png */; };
+		81B9E7381D4AB0FF00567D1C /* step4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E72A1D4AB0FF00567D1C /* step4@2x.png */; };
+		81B9E7391D4AB0FF00567D1C /* step5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E72B1D4AB0FF00567D1C /* step5@2x.png */; };
+		81B9E73A1D4AB0FF00567D1C /* step6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E72C1D4AB0FF00567D1C /* step6@2x.png */; };
+		81B9E73B1D4AB0FF00567D1C /* step7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E72D1D4AB0FF00567D1C /* step7@2x.png */; };
+		81B9E73C1D4AB0FF00567D1C /* step8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B9E72E1D4AB0FF00567D1C /* step8@2x.png */; };
+		C882AF91C2A1A2F2DB997ACC /* Pods_MapMetro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A8268581642D8C9373C16B /* Pods_MapMetro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10F77E06A5FD6C187707A3F8 /* Pods-MapMetro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapMetro.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapMetro/Pods-MapMetro.release.xcconfig"; sourceTree = "<group>"; };
+		2799EF1D4B04000419B54357 /* Pods-MapMetroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapMetroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapMetroUITests/Pods-MapMetroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42E13CC77A554C11224D803B /* Pods-MapMetroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapMetroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapMetroUITests/Pods-MapMetroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4666C6C365DF4A80F0E58BBE /* Pods_MapMetroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapMetroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C101922BBDF7DCE1DCF2E8 /* Pods-MapMetroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapMetroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapMetroTests/Pods-MapMetroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67B7EA07DF5E234002BDBFC5 /* Pods_MapMetroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapMetroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACBE6DB4EDEF2CCF14894B8 /* Pods-MapMetro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapMetro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapMetro/Pods-MapMetro.debug.xcconfig"; sourceTree = "<group>"; };
 		81B9E6EF1D4AAB8D00567D1C /* MapMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B9E6F21D4AAB8D00567D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B9E6F41D4AAB8D00567D1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +71,22 @@
 		81B9E70E1D4AAB8D00567D1C /* MapMetroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapMetroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B9E7121D4AAB8D00567D1C /* MapMetroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMetroUITests.swift; sourceTree = "<group>"; };
 		81B9E7141D4AAB8D00567D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B9E7211D4AB0FF00567D1C /* aeroplane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "aeroplane@2x.png"; path = "../../../Images/aeroplane@2x.png"; sourceTree = "<group>"; };
+		81B9E7221D4AB0FF00567D1C /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow@2x.png"; path = "../../../Images/arrow@2x.png"; sourceTree = "<group>"; };
+		81B9E7231D4AB0FF00567D1C /* australia-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "australia-large@2x.png"; path = "../../../Images/australia-large@2x.png"; sourceTree = "<group>"; };
+		81B9E7241D4AB0FF00567D1C /* boat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boat@2x.png"; path = "../../../Images/boat@2x.png"; sourceTree = "<group>"; };
+		81B9E7251D4AB0FF00567D1C /* popup_santa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "popup_santa@2x.png"; path = "../../../Images/popup_santa@2x.png"; sourceTree = "<group>"; };
+		81B9E7261D4AB0FF00567D1C /* sad_cloud_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sad_cloud_dark@2x.png"; path = "../../../Images/sad_cloud_dark@2x.png"; sourceTree = "<group>"; };
+		81B9E7271D4AB0FF00567D1C /* step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step1@2x.png"; path = "../../../Images/step1@2x.png"; sourceTree = "<group>"; };
+		81B9E7281D4AB0FF00567D1C /* step2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step2@2x.png"; path = "../../../Images/step2@2x.png"; sourceTree = "<group>"; };
+		81B9E7291D4AB0FF00567D1C /* step3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step3@2x.png"; path = "../../../Images/step3@2x.png"; sourceTree = "<group>"; };
+		81B9E72A1D4AB0FF00567D1C /* step4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step4@2x.png"; path = "../../../Images/step4@2x.png"; sourceTree = "<group>"; };
+		81B9E72B1D4AB0FF00567D1C /* step5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step5@2x.png"; path = "../../../Images/step5@2x.png"; sourceTree = "<group>"; };
+		81B9E72C1D4AB0FF00567D1C /* step6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step6@2x.png"; path = "../../../Images/step6@2x.png"; sourceTree = "<group>"; };
+		81B9E72D1D4AB0FF00567D1C /* step7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step7@2x.png"; path = "../../../Images/step7@2x.png"; sourceTree = "<group>"; };
+		81B9E72E1D4AB0FF00567D1C /* step8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "step8@2x.png"; path = "../../../Images/step8@2x.png"; sourceTree = "<group>"; };
+		92BCF1B42F331E4382E22F87 /* Pods-MapMetroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapMetroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapMetroTests/Pods-MapMetroTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3A8268581642D8C9373C16B /* Pods_MapMetro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapMetro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C882AF91C2A1A2F2DB997ACC /* Pods_MapMetro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2082AEEA0755D6B8C78F5EE8 /* Pods_MapMetroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CBC410D4632C4CC904E93CF /* Pods_MapMetroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +124,9 @@
 				81B9E7061D4AAB8D00567D1C /* MapMetroTests */,
 				81B9E7111D4AAB8D00567D1C /* MapMetroUITests */,
 				81B9E6F01D4AAB8D00567D1C /* Products */,
+				81B9E7201D4AB0C100567D1C /* Images */,
+				CB337AAFF4DB75D744BB84C2 /* Pods */,
+				CAF9D566B2EE5AF5C4F11298 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +171,51 @@
 			path = MapMetroUITests;
 			sourceTree = "<group>";
 		};
+		81B9E7201D4AB0C100567D1C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				81B9E7211D4AB0FF00567D1C /* aeroplane@2x.png */,
+				81B9E7221D4AB0FF00567D1C /* arrow@2x.png */,
+				81B9E7231D4AB0FF00567D1C /* australia-large@2x.png */,
+				81B9E7241D4AB0FF00567D1C /* boat@2x.png */,
+				81B9E7251D4AB0FF00567D1C /* popup_santa@2x.png */,
+				81B9E7261D4AB0FF00567D1C /* sad_cloud_dark@2x.png */,
+				81B9E7271D4AB0FF00567D1C /* step1@2x.png */,
+				81B9E7281D4AB0FF00567D1C /* step2@2x.png */,
+				81B9E7291D4AB0FF00567D1C /* step3@2x.png */,
+				81B9E72A1D4AB0FF00567D1C /* step4@2x.png */,
+				81B9E72B1D4AB0FF00567D1C /* step5@2x.png */,
+				81B9E72C1D4AB0FF00567D1C /* step6@2x.png */,
+				81B9E72D1D4AB0FF00567D1C /* step7@2x.png */,
+				81B9E72E1D4AB0FF00567D1C /* step8@2x.png */,
+			);
+			name = Images;
+			path = MapMetro;
+			sourceTree = "<group>";
+		};
+		CAF9D566B2EE5AF5C4F11298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3A8268581642D8C9373C16B /* Pods_MapMetro.framework */,
+				67B7EA07DF5E234002BDBFC5 /* Pods_MapMetroTests.framework */,
+				4666C6C365DF4A80F0E58BBE /* Pods_MapMetroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB337AAFF4DB75D744BB84C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACBE6DB4EDEF2CCF14894B8 /* Pods-MapMetro.debug.xcconfig */,
+				10F77E06A5FD6C187707A3F8 /* Pods-MapMetro.release.xcconfig */,
+				64C101922BBDF7DCE1DCF2E8 /* Pods-MapMetroTests.debug.xcconfig */,
+				92BCF1B42F331E4382E22F87 /* Pods-MapMetroTests.release.xcconfig */,
+				42E13CC77A554C11224D803B /* Pods-MapMetroUITests.debug.xcconfig */,
+				2799EF1D4B04000419B54357 /* Pods-MapMetroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81B9E7171D4AAB8D00567D1C /* Build configuration list for PBXNativeTarget "MapMetro" */;
 			buildPhases = (
+				E9EA5ABA5CBFE11C18767762 /* [CP] Check Pods Manifest.lock */,
 				81B9E6EB1D4AAB8D00567D1C /* Sources */,
 				81B9E6EC1D4AAB8D00567D1C /* Frameworks */,
 				81B9E6ED1D4AAB8D00567D1C /* Resources */,
+				CAD14F83E4D931BCC4BDFA7B /* [CP] Embed Pods Frameworks */,
+				0ACCA8B2B7442AABF3B939E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81B9E71A1D4AAB8D00567D1C /* Build configuration list for PBXNativeTarget "MapMetroTests" */;
 			buildPhases = (
+				B44E0CD4E8996770DFDCBD8F /* [CP] Check Pods Manifest.lock */,
 				81B9E6FF1D4AAB8D00567D1C /* Sources */,
 				81B9E7001D4AAB8D00567D1C /* Frameworks */,
 				81B9E7011D4AAB8D00567D1C /* Resources */,
+				B821A86BF6BE0E35EFED0797 /* [CP] Embed Pods Frameworks */,
+				DE3542032E4C831C78B6270A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81B9E71D1D4AAB8D00567D1C /* Build configuration list for PBXNativeTarget "MapMetroUITests" */;
 			buildPhases = (
+				6E978DEBA052D9F1B6BF1640 /* [CP] Check Pods Manifest.lock */,
 				81B9E70A1D4AAB8D00567D1C /* Sources */,
 				81B9E70B1D4AAB8D00567D1C /* Frameworks */,
 				81B9E70C1D4AAB8D00567D1C /* Resources */,
+				2C0D3120C2BBF38029FC253F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +331,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B9E73C1D4AB0FF00567D1C /* step8@2x.png in Resources */,
+				81B9E73A1D4AB0FF00567D1C /* step6@2x.png in Resources */,
+				81B9E72F1D4AB0FF00567D1C /* aeroplane@2x.png in Resources */,
+				81B9E7381D4AB0FF00567D1C /* step4@2x.png in Resources */,
+				81B9E7391D4AB0FF00567D1C /* step5@2x.png in Resources */,
+				81B9E7331D4AB0FF00567D1C /* popup_santa@2x.png in Resources */,
+				81B9E7341D4AB0FF00567D1C /* sad_cloud_dark@2x.png in Resources */,
+				81B9E7301D4AB0FF00567D1C /* arrow@2x.png in Resources */,
+				81B9E7371D4AB0FF00567D1C /* step3@2x.png in Resources */,
 				81B9E6FD1D4AAB8D00567D1C /* LaunchScreen.storyboard in Resources */,
+				81B9E7361D4AB0FF00567D1C /* step2@2x.png in Resources */,
+				81B9E7311D4AB0FF00567D1C /* australia-large@2x.png in Resources */,
+				81B9E7351D4AB0FF00567D1C /* step1@2x.png in Resources */,
+				81B9E73B1D4AB0FF00567D1C /* step7@2x.png in Resources */,
+				81B9E7321D4AB0FF00567D1C /* boat@2x.png in Resources */,
 				81B9E6FA1D4AAB8D00567D1C /* Assets.xcassets in Resources */,
 				81B9E6F81D4AAB8D00567D1C /* Main.storyboard in Resources */,
 			);
@@ -253,6 +366,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACCA8B2B7442AABF3B939E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapMetro/Pods-MapMetro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0D3120C2BBF38029FC253F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapMetroUITests/Pods-MapMetroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E978DEBA052D9F1B6BF1640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B44E0CD4E8996770DFDCBD8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B821A86BF6BE0E35EFED0797 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapMetroTests/Pods-MapMetroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD14F83E4D931BCC4BDFA7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapMetro/Pods-MapMetro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3542032E4C831C78B6270A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapMetroTests/Pods-MapMetroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EA5ABA5CBFE11C18767762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81B9E6EB1D4AAB8D00567D1C /* Sources */ = {
@@ -402,6 +638,7 @@
 		};
 		81B9E7181D4AAB8D00567D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACBE6DB4EDEF2CCF14894B8 /* Pods-MapMetro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapMetro/Info.plist;
@@ -413,6 +650,7 @@
 		};
 		81B9E7191D4AAB8D00567D1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F77E06A5FD6C187707A3F8 /* Pods-MapMetro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MapMetro/Info.plist;
@@ -424,6 +662,7 @@
 		};
 		81B9E71B1D4AAB8D00567D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C101922BBDF7DCE1DCF2E8 /* Pods-MapMetroTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MapMetroTests/Info.plist;
@@ -436,6 +675,7 @@
 		};
 		81B9E71C1D4AAB8D00567D1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BCF1B42F331E4382E22F87 /* Pods-MapMetroTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MapMetroTests/Info.plist;
@@ -448,6 +688,7 @@
 		};
 		81B9E71E1D4AAB8D00567D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E13CC77A554C11224D803B /* Pods-MapMetroUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MapMetroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +700,7 @@
 		};
 		81B9E71F1D4AAB8D00567D1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2799EF1D4B04000419B54357 /* Pods-MapMetroUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MapMetroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,6 +729,7 @@
 				81B9E7191D4AAB8D00567D1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81B9E71A1D4AAB8D00567D1C /* Build configuration list for PBXNativeTarget "MapMetroTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +738,7 @@
 				81B9E71C1D4AAB8D00567D1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81B9E71D1D4AAB8D00567D1C /* Build configuration list for PBXNativeTarget "MapMetroUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +747,7 @@
 				81B9E71F1D4AAB8D00567D1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

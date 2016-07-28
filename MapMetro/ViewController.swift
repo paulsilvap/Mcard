@@ -7,9 +7,31 @@
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
 
 class ViewController: UIViewController {
 
+    override func loadView() {
+        let camera = GMSCameraPosition.cameraWithLatitude(0.419193, longitude: -78.189943, zoom: 14)
+        let mapView = GMSMapView.mapWithFrame(.zero, camera: camera)
+        self.view = mapView
+        
+        //marker
+        let marker = GMSMarker()
+        marker.position = CLLocationCoordinate2DMake(0.419193, -78.189943)
+        marker.title = "Innopolis"
+        marker.snippet = "Ciudad Yachay - Centro de Innovaciòn"
+        marker.map = mapView
+        
+        let calle_guzman = GMSMarker()
+        calle_guzman.position = CLLocationCoordinate2DMake(0.418110, -78.193866)
+        calle_guzman.title = "Calle Guzmán"
+        calle_guzman.snippet = "Calle en la ciudad de Urcuquí"
+        calle_guzman.icon = UIImage(named: "boat@2x.png")
+        calle_guzman.map = mapView
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
